@@ -473,33 +473,33 @@ p {
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
     border-radius: 8px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgb(0, 225, 255); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 225, 255);
     border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #00eeff; 
-  }
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00eeff;
+}
 
 
-  .icon-socials{
+.icon-socials {
     margin-top: 30px;
 
-  }
+}
 
 
-  .fa {
+.fa {
     padding: 15px;
     font-size: 15px;
     width: 15px;
@@ -507,104 +507,110 @@ p {
     text-decoration: none;
     margin: 5px 5px;
     border-radius: 50%;
-  }
-  
-  .fa:hover {
-      opacity: 0.9;
-       background-color: aqua;
-        animation-name: example;
-        animation-duration: 2s;
-        
-  }
-  @keyframes example {
-    from {background-color: blue;}
-    to {background-color: pink;}
-  }
-  
-  .fa-facebook {
+}
+
+.fa:hover {
+    opacity: 0.9;
+    background-color: aqua;
+    animation-name: example;
+    animation-duration: 2s;
+
+}
+
+@keyframes example {
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: pink;
+    }
+}
+
+.fa-facebook {
     background: #0000cc;
     color: white;
-  }
-  
-  .fa-twitter {
+}
+
+.fa-twitter {
     background: #1aa3ff;
     color: white;
-  }
-  
-  
-  .fa-linkedin {
-    background:  #3333ff;
+}
+
+
+.fa-linkedin {
+    background: #3333ff;
     color: white;
-  }
-  
-  
-  .fa-instagram {
+}
+
+
+.fa-instagram {
     background: #ff4dd2;
     color: white;
-  }
-  
-footer{
-  text-align: center;
-  font-style: italic;
-  font-size: small;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    font-size: small;
 }
 
 
 * {
-margin:0;
-padding:0;
-font-family: 'Raleway', sans-serif;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
 }
 
-.services-section{
-background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(bp.jpg);
-background-size: cover;
-padding: 60px 0;
-}
-
-
-.inner-width{
-width: 100%;
-max-width:1200px ;
-margin: auto;
-padding:0 20px ;
-overflow: hidden;
-}
- 
-
-.section-title{
-text-align: center;
-color: #ddd;
-text-transform: uppercase;
-font-size: 30px;
+.services-section {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(bp.jpg);
+    background-size: cover;
+    padding: 60px 0;
 }
 
 
-.border{
-width: 160px;
-height: 2px;
-background:#82ccdd ;
-margin:40px auto ;
+.inner-width {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
 }
 
 
-.services-container{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+.section-title {
+    text-align: center;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 30px;
 }
 
 
-.service-box{
-max-width: 33.33%;
-padding:10px;
-text-align: center;
-color: #ddd;
-cursor:pointer;
+.border {
+    width: 160px;
+    height: 2px;
+    background: #82ccdd;
+    margin: 40px auto;
 }
 
-.service-icon{
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.service-box {
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.service-icon {
     display: inline-block;
     width: 70px;
     height: 70px;
@@ -617,41 +623,40 @@ cursor:pointer;
 }
 
 .service-icon i {
-line-height: 70px;
-transform: rotate(-45deg);
-font-size: 26px;
+    line-height: 70px;
+    transform: rotate(-45deg);
+    font-size: 26px;
 }
 
-.service-box:hover .service-icon{
+.service-box:hover .service-icon {
     background: #82ccdd;
-    color:#ddd ;
+    color: #ddd;
 }
 
- .service-title{
+.service-title {
     font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 10px;
- }
-
-.service-desc{
-    font-size: 14px; 
 }
 
-@media screen and (max-width:960px){
-    .service-box{
+.service-desc {
+    font-size: 14px;
+}
+
+@media screen and (max-width:960px) {
+    .service-box {
         max-width: 45%
     }
 }
 
-@media screen and (max-width:768px){
-    .service-box{
+@media screen and (max-width:768px) {
+    .service-box {
         max-width: 50%
     }
 }
 
-@media screen and (max-width:480px){
-    .service-box{
+@media screen and (max-width:480px) {
+    .service-box {
         max-width: 100%
     }
 }
-
